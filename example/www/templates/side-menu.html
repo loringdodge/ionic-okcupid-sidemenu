@@ -1,0 +1,67 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="content"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" ng-controller="SideMenuCtrl">
+    <ion-pane class="background-grey">
+
+      <div class="row menu-top">
+        <div class="col col-center">
+          <img class="profile-image" ng-src="img/cooper.jpg" animate-ratio="fadeIn"/>
+        </div>
+      </div>
+
+      <div class="menu-middle">
+        <div class="row">
+          <div class="col col-center">
+            <button class="button-circle" animate-ratio="fadeIn">
+              <i class="ion-ios-pulse-strong"></i>
+            </button>
+          </div>
+          <div class="col col-center">
+            <button class="button-circle" animate-ratio="fadeIn">
+              <i class="ion-heart"></i>
+            </button>
+          </div>
+          <div class="col col-center">
+            <button class="button-circle" animate-ratio="fadeIn">
+              <i class="ion-film-marker"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-center">
+            <button class="button-circle" animate-ratio="fadeIn">
+              <i class="ion-chatbox"></i>
+            </button>
+          </div>
+          <div class="col col-center">
+            <button class="button-circle" animate-ratio="fadeIn">
+              <i class="ion-person-stalker"></i>
+            </button>
+          </div>
+          <div class="col col-center">
+            <button class="button-circle" animate-ratio="fadeIn">
+              <i class="ion-android-star-half"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-bottom" animate-ratio="slideUp">
+          <button class="button-circle">
+            <i class="ion-erlenmeyer-flask"></i>
+        </div>
+      </div>
+
+    </ion-pane>
+  </ion-side-menu>
+</ion-side-menus>

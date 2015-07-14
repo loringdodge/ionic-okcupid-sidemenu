@@ -1,0 +1,87 @@
+/* Background */
+.background-grey {
+  background-color: #455A64;
+}
+
+/* Top */
+.menu-top {
+  height: 40%;
+}
+
+/* Middle */
+.menu-middle {
+  height: 40%;
+}
+
+/* Bottom */
+.menu-bottom {
+  position:relative;
+  height: 20%;
+  background-color: #37474F;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* Components */
+.col.col-center{
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 10px solid #546E7A;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.profile-image:hover {
+  border: 3px solid white;
+}
+
+/* Buttons */
+.button-circle {
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  background-color: #546E7A;
+  border: 3px solid #546E7A;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.button-circle i {
+  font-size: 1.5em;
+  color: white;
+}
+
+.button-circle:hover {
+  border: 3px solid white;
+  background-color: #455A64;
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+
+.menu-bottom .button-circle {
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  background-color: #26C6DA;
+  border: 3px solid #26C6DA;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+

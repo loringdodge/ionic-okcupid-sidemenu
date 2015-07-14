@@ -1,0 +1,20 @@
+{
+  "name": "ionic-item-expand",
+  "version": "1.0.0",
+  "homepage": "https://github.com/loringdodge/ionic-item-expand",
+  "authors": [
+    "Loring Dodge <loringdodge@gmail.com>"
+  ],
+  "description": "An extension of the Ionic Accodion",
+  "keywords": [
+    "mobile",
+    "html5",
+    "ionic",
+    "cordova",
+    "phonegap",
+    "angularjs",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": false
+}
