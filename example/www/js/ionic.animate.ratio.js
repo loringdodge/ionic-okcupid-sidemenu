@@ -63,14 +63,12 @@ angular.module('ionic.animate.ratio', [])
   }
 
   $scope.fadeIn = function(element, ratio) {
-    element.style.webkitTransform = 'scale(' + transitionIn(ratio) + ')';
-    element.style.transform = 'scale(' + transitionIn(ratio) + ')';
+    element.style.transform = element.style.webkitTransform = 'scale(' + transitionIn(ratio) + ')';
     element.style.opacity = transitionIn(ratio);
   }
 
   $scope.slideUp = function(element, ratio) {
-    element.style.webkitTransform = 'translateY(' + transitionFromTo(ratio, 100, 0) + '%' + ')';
-    element.style.transform = 'translateY(' + transitionFromTo(ratio, 100, 0) + '%' + ')';
+    element.style.transform = element.style.webkitTransform = 'translateY(' + transitionFromTo(ratio, 100, 0) + '%' + ')';
   }
 
 

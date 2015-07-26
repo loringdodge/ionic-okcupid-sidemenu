@@ -3,6 +3,10 @@
   background-color: #455A64;
 }
 
+.background-lighgrey {
+  background-color: #B0BEC5;
+}
+
 /* Top */
 .menu-top {
   height: 40%;
@@ -28,7 +32,7 @@
 .col.col-center{
    display: -webkit-flex;
    display: flex;
-   -webkit-flex-direction: row /* works with row or column */
+   -webkit-flex-direction: row
    flex-direction: row;
    -webkit-align-items: center;
    align-items: center;
@@ -72,6 +76,17 @@
   background-color: #455A64;
   -webkit-transform: scale(1.2) !important;
   transform: scale(1.2) !important;
+}
+
+.button-circle.rotate-15 {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+.button-circle.rotate-15 + h3 {
+  display:inline-block;
+  margin-left: 10px;
+  color: #37474F;
 }
 
 .menu-bottom .button-circle {
