@@ -3,7 +3,7 @@ Ionic OkCupid Side Menu
 
 A demo of how to achieve a side menu similar to that of the OkCupid App.
 When the side menu is triggered, a ratio is returned via the `$ionicSideMenuDelegate.getOpenRatio()` provider method.
-This ratio is then by a callback which is passed to the the animate ratio directive through
+This ratio is then used by a callback which is passed to the animate ratio directive through
 the `animate-ratio` ratio.
 
 [Demo](http://codepen.io/loringdodge/pen/YXvGjX)
